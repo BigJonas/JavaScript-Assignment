@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark"> 
+  <!-- Yeah i know you don't like dark mode but so what -->
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link href="/styles.css" rel="stylesheet"/>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about-me.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact-me.html">Contact Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/roi-calculator.html">ROI Calculator</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://en.wikipedia.org/wiki/Gambling"
+                target="_blank"
+                >Gambling
+              </a>
+            </li>
+            <li class="nav-item disabled">
+              <a class="nav-link disabled" aria-disabled="true"
+                >Ahh you cant click this</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container-sm">
+        <h1>My Website</h1>
+        <!-- GPT text -->
+        <p>
+          Owning my own website has been an incredibly fulfilling experience that
+          I wholeheartedly cherish. From the moment I embarked on this digital
+          journey, I was captivated by the limitless possibilities that having my
+          own corner of the internet offered. It's not just a website; it's a
+          canvas where I can express my thoughts, passions, and creativity to the
+          world. The process of designing, curating content, and interacting with
+          my online community has become an integral part of my life. I find
+          myself eagerly diving into the realm of web development, constantly
+          seeking ways to enhance user experience and engagement. Whether it's a
+          personal blog, an e-commerce platform, or a community forum, my website
+          is a reflection of my interests and values, and the satisfaction I
+          derive from it is immeasurable. It's not just a digital space; it's a
+          digital extension of myself, and I genuinely relish every moment of it.
+        </p>
+        <h2>Pros of owning a website</h2>
+        <!-- More GPT text -->
+        <ul>
+          <li>
+            Global Reach: Websites can be accessed from anywhere in the world,
+            allowing you to reach a global audience.
+          </li>
+          <li>
+            24/7 Accessibility: Your website is available to visitors 24/7,
+            providing information and services even when you're not actively
+            online.
+          </li>
+          <li>
+            Cost-Effective: Compared to traditional brick-and-mortar businesses,
+            websites are often more cost-effective to establish and maintain.
+          </li>
+          <li>
+            Increased Credibility: A professional website enhances your
+            credibility and trustworthiness, particularly for businesses and
+            organizations.
+          </li>
+          <li>
+            Marketing and Promotion: It serves as a powerful marketing tool,
+            enabling you to promote products, services, or personal brand
+            effectively.
+          </li>
+          <li>
+            Branding: You have full control over the branding and appearance of
+            your website, ensuring it aligns with your vision.
+          </li>
+          <li>
+            Analytics: Website analytics provide valuable insights into visitor
+            behavior, helping you make data-driven decisions.
+          </li>
+          <li>
+            Communication: It facilitates direct communication with your audience
+            through contact forms, emails, and social media integration.
+          </li>
+          <li>
+            E-commerce: You can sell products or services online, reaching a wide
+            customer base and increasing sales potential.
+          </li>
+          <li>
+            Information Dissemination: Ideal for sharing information, news,
+            tutorials, and educational content with a broad audience.
+          </li>
+        </ul>
+        <h2>Chat GPT</h2>
+        <!-- I dont really like this name all too much -->
+        <section id="chat-gpt-toggleable">
+          <p> 
+            Navigating the use of ChatGPT for work can be an unsettling experience, as it highlights the ever-looming reality of AI encroaching on traditional job roles. Its remarkable language generation abilities raise questions about job security and the potential for automation to replace human tasks, making it a chilling reminder of the transformative power of technology in the workplace. 
+          </p>
+        </section>
+        <button id="chat-gpt-toggle-button" class="btn btn-primary">Read More/Show Less</button>
+      <div>
+    </main>
+    <!-- Copyright Footer -->
+    <footer>
+      <div class="mt-4 position-absolute top-1 start-50 translate-middle">
+        <p>copyright 2024 - Jonas Garibay</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#chat-gpt-toggle-button').click(function() {
+          $('#chat-gpt-toggleable').toggle();
+        });
+      });
+    </script>
+  </body>
+</html>
